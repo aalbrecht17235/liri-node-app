@@ -3,7 +3,7 @@ Similar to Siri, the Liri bot will take in commands and provide responses.
 
 ## Description
 
-Liri searches the following APIs: Spotify, OMDB, or Bands In Town based on which command it receives. The three commands it accepts are 'spotify-this-song', 'movie-this', and 'concert-this'. After taking in the command and either an artist, song, or movie, Liri will output to the terminal the first result of the queried API.
+Liri searches the following APIs: Spotify, OMDB, or Bands In Town based on which command it receives. The three commands that Liri will accept are 'spotify-this-song', 'movie-this', and 'concert-this'. After taking in the command as well as either an artist, song, or movie, Liri will output to the terminal the first result of the queried API.
 
 Spotify search
 ------
@@ -15,6 +15,6 @@ Concert search
 
 Movie search
 ------
-![Alt Text]()
+![Alt Text](http://g.recordit.co/gYYvDGSb8S.gif)
 
 
