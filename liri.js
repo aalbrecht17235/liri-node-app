@@ -75,7 +75,40 @@ if (command === "concert-this") {
     });
 };
 
-fs.appendFile("random.txt", command + " " + joined.join(' ') +
+if (command === "readFile") {
+
+    var content;
+
+    fs.readFile('random.txt', function read(err, data) {
+        if (err) {
+            throw err;
+        }
+        content = data.toString().trim();
+
+        spotify.search({
+            type: 'track',
+            query: content,
+            limit: 1
+        }, function (err, data) {
+            if (err) {
+                return console.log('Error occurred: ' + err);
+            }
+            console.log("\n-- Song Info --" +
+                "\n* Artist: " + data.tracks.items[0].artists[0].name + "\n" +
+                "* Song: " + data.tracks.items[0].name + "\n" +
+                "* Album: " + data.tracks.items[0].album.name + "\n" +
+                "* Song Preview: " + data.tracks.items[0].preview_url +
+                "\n------------------\n"
+            );
+    
+        });
+        
+    });
+
+
+}
+
+fs.appendFile("log.txt", command + " " + joined.join(' ') +
     "\n",
     function (err) {
 
