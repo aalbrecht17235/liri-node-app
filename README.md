@@ -1,4 +1,4 @@
-# Liri Bit
+# Liri Bot
 Similar to Siri, the Liri bot will take in commands and provide responses. 
 
 ## Description
