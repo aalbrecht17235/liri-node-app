@@ -56,5 +56,5 @@ This will output the following information to your terminal/bash window:
   ** If no movie is provided then Liri will default to "Mr.Nobody".
 
 
-![Alt Text](http://g.recordit.co/gYYvDGSb8S.gif)
+![Alt Text](http://g.recordit.co/QLneE1QYh7.gif)
 
