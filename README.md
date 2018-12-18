@@ -19,7 +19,7 @@ Artist(s)
 
   * The album that the song is from
   
-  ** If no song is provided then your program will default to "The Sign" by Ace of Base.
+  ** If no song is provided then Liri will default to "The Sign" by Ace of Base.
 
 
 ![Alt Text](http://g.recordit.co/lU8HJYaO04.gif)
@@ -52,6 +52,9 @@ This will output the following information to your terminal/bash window:
   * Language of the movie.
   * Plot of the movie.
   * Actors in the movie.
+  
+  ** If no movie is provided then Liri will default to "Mr.Nobody".
+
 
 ![Alt Text](http://g.recordit.co/gYYvDGSb8S.gif)
 
