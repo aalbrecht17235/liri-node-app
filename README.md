@@ -36,7 +36,7 @@ This will search the Bands in Town Artist Events API ("https://rest.bandsintown.
 
   * Date of the Event (uses moment to format as "MM/DD/YYYY")
 
-![Alt Text](http://g.recordit.co/rlRl35WFul.gif)
+![Alt Text](http://g.recordit.co/GSl4S3T0zT.gif)
 
 Movie search
 ------
