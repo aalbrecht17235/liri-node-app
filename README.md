@@ -22,7 +22,7 @@ Artist(s)
   ** If no song is provided then Liri will default to "The Sign" by Ace of Base.
 
 
-![Alt Text](http://g.recordit.co/lU8HJYaO04.gif)
+![Alt Text](http://g.recordit.co/JKATHNmBt0.gif)
 
 Concert search
 ------
